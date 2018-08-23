@@ -1,0 +1,28 @@
+*{
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.container{
+  display: inline-block;
+  border: 1px solid red;
+}
+.icon{
+  background-image: url(sprite.png);
+  width: 24px;
+  height: 24px;
+  margin:0 auto;
+}
+
+
+.icon-car{
+  background-position: 0 -44px;
+}
+
+.icon-travel{
+  background-position: 0 -87px;
+}
+
+.icon-game{
+  background-position: 0 -132px;
+}
